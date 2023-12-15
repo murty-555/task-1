@@ -1,0 +1,10 @@
+/* .table-container thead{
+    background-color: #5d5d5e;
+} */
+.table-container{
+    height: 500px;
+}
+.table-container tbody{
+    overflow-y: scroll;
+    height: 100px;
+}
