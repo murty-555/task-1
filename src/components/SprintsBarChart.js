@@ -18,8 +18,8 @@ const SprintsBarChart = () => {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis ticks={[0,50,100,150,200]} />
+          <XAxis dataKey="name" label={{value: "Sprints", position:"bottom"}} />
+          <YAxis ticks={[0,50,100,150,200]} label={{value:"Storypoint(SP)", angle: -90, position:"insideLeft"}} />
           <Tooltip />
           <Legend />
           <Bar dataKey="SP Planned" stackId="a" fill="#b8b8ba" />

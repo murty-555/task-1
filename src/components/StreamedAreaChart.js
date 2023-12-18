@@ -31,14 +31,14 @@ const monthlyData = [
       data={monthlyData}
       margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
     >
-      <CartesianGrid strokeDasharray="3 3" />
+      <CartesianGrid strokeDasharray="0 0" />
       <XAxis dataKey="month" />
-      <YAxis type='number' domain={[0, 60]}/>
+      <YAxis ticks={[0,10,20,30,40,50,60]} label={{value:"Story Point(Days)", angle: -90, position:"insideLeft"}}/>
       <Tooltip />
       <Legend />
-      <Area type="monotone" dataKey="issueOpen" stackId="1" stroke="#8884d8" fill="#8884d8" />
-      <Area type="monotone" dataKey="issueStarted" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-      <Area type="monotone" dataKey="issueCompleted" stackId="1" stroke="#ffc658" fill="#ffc658" />
+      <Area type="monotone" dataKey="issueOpen" stackId="1" stroke="#b8b8ba" fill="#b8b8ba" />
+      <Area type="monotone" dataKey="issueStarted" stackId="1" stroke="#7d7d7d" fill="#7d7d7d" />
+      <Area type="monotone" dataKey="issueCompleted" stackId="1" stroke="#5d5d5e" fill="#5d5d5e" />
     </AreaChart>
   
     
