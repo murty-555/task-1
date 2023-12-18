@@ -9,7 +9,7 @@
 .card_container{
     width: 300px;
     padding: 16px;
-    background-color: rgb(223, 224, 224);
+    background-color: #dfe0e0;
     margin: 10px;
     text-align: center;
     border-radius: 5px;
@@ -17,7 +17,7 @@
 
 }
 .item_name{
-    color: rgb(144, 146, 148);
+    color: #909294;
 
 }
 .item_value{

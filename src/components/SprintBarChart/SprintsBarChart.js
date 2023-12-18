@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { SBCData } from '../data/SprintsBarChartData';
+import { SBCData } from '../../data/sprints-bar-chart-data';
 
 const data = SBCData
 

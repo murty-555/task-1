@@ -1,7 +1,8 @@
 import React from 'react';
 import "./SprintsTableList.css";
+import { sprintData } from '../../data/sprint-table-data';
 
-const SprintsTableList = ({ sprintData }) => {
+const SprintsTableList = () => {
   return (
     <div className='table-container'>
       <table className='table '>

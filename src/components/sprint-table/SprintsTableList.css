@@ -3,6 +3,7 @@
 .table-container {
     overflow-x: auto;
     
+    
   } 
   .table {
     width: 100%;
@@ -15,8 +16,12 @@
     max-height: 300px;
     overflow-y: auto;
   }
+  thead{
+    background-color: #7d7d7d !important;
+  }
  .table-light{
     border-radius: 2px;
+    background-color: #909294;
  }
   
   

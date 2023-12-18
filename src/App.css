@@ -13,3 +13,14 @@ BarChart{
   align-items: center;
   height: 90vh;
 }
+.App-header {
+  color: white;
+}
+.App-header {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  height: 10vh;
+}
