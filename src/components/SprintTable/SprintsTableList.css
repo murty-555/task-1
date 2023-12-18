@@ -1,0 +1,23 @@
+/* SprintsTableList.css */
+
+.table-container {
+    overflow-x: auto;
+    
+  } 
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: brown;
+    
+  }
+  
+  .table-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+ .table-light{
+    border-radius: 2px;
+ }
+  
+  
+ 

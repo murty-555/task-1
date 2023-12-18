@@ -19,7 +19,7 @@ const SprintsBarChart = () => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis  type="number" domain={[0, 200]}/>
+          <YAxis ticks={[0,50,100,150,200]} />
           <Tooltip />
           <Legend />
           <Bar dataKey="SP Planned" stackId="a" fill="#b8b8ba" />

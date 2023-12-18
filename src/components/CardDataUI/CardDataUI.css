@@ -1,0 +1,25 @@
+/* .card-data-ui-container{
+    display: flex;
+} */
+.card_items{
+    display: flex;
+    flex-direction: column;
+
+}
+.card_container{
+    width: 300px;
+    padding: 16px;
+    background-color: rgb(223, 224, 224);
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+.item_name{
+    color: rgb(144, 146, 148);
+
+}
+.item_value{
+    font-weight: bold;
+}

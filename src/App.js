@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import StreamedAreaChart from "./components/StreamedAreaChart";
 import SprintsBarChart from "./components/SprintsBarChart";
-import SprintsTabelList from "./components/SprintsTableList";
-import CardDataUI from "./components/CardDataUI";
+import SprintTableData from "./components/SprintTable/SprintTableData";
+import CardDataUI from "./components/CardDataUI/CardDataUI";
 import Home from "./components/Home";
 import "./App.css";
 
@@ -41,7 +41,7 @@ function App() {
           <Route
             exact
             path="/sprint-table-list"
-            element={<SprintsTabelList />}
+            element={<SprintTableData />}
           />
           <Route exact path="/card-data-ui" element={<CardDataUI />} />
         </Routes>

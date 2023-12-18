@@ -15,22 +15,22 @@ export const SBCData = [
     },
     {
       name: 'S3',
-      "SP Planned": 85,
-      "SP Added": 130,
+      "SP Planned": 80,
+      "SP Added": 50,
       "Sp Completed": 70,
       "Sp Forecast": 0
     },
     {
       name: 'S4',
       "SP Planned": 120,
-      "SP Added": 155,
+      "SP Added": 40,
       "Sp Completed": 70,
       "Sp Forecast": 0
     },
     {
       name: 'S5',
       "SP Planned": 90,
-      "SP Added": 140,
+      "SP Added": 50,
       "Sp Completed": 80,
       "Sp Forecast": 0
     },
