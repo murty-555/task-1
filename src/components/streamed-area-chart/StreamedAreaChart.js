@@ -33,23 +33,23 @@ const StreamedAreaChart = () => {
       <Area
         type="monotone"
         dataKey="issueOpen"
-        stackId="1"
-        stroke="#b8b8ba"
-        fill="#b8b8ba"
+        
+        stroke="#d600ab"
+        fill="#d600ab"
       />
       <Area
         type="monotone"
         dataKey="issueStarted"
-        stackId="1"
-        stroke="#7d7d7d"
-        fill="#7d7d7d"
+        
+        stroke="#f75e76"
+        fill="#f75e76"
       />
       <Area
         type="monotone"
         dataKey="issueCompleted"
-        stackId="1"
-        stroke="#5d5d5e"
-        fill="#5d5d5e"
+        
+        stroke="#f7a806"
+        fill="#f7a806"
       />
     </AreaChart>
   );

@@ -7,8 +7,8 @@ const data = SBCData
 const SprintsBarChart = () => {
   return (
         <BarChart
-          width={500}
-          height={300}
+          width={800}
+          height={400}
           data={data}
           margin={{
             top: 20,
